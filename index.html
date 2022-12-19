@@ -1,0 +1,154 @@
+<html>
+<head>
+<title> Project </title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<style>
+*{
+  margin:0;
+  padding:0;
+  font-family:inherit;
+  box-sizing:border-box;
+}
+html{
+  font-family:Roboto, sans-serif;
+}
+
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+/*   align-items:center; */
+}
+.container{
+  height:300px;
+  width:480px;
+  display:flex;
+  padding:10px;
+  flex-direction:column;
+  gap:20px;
+  justify-content:center;
+  align-items:center;
+  border:3px solid black;
+  border-radius:10px;
+}
+.heading{
+  font-size:1.2rem;
+}
+.msg{
+  font-size:0.8rem;
+  text-align:center;
+}
+.form{
+  display:flex;
+  gap:10px;
+}
+.form input{
+  -webkit-appearance:none;
+  text-align:center;
+  font-size:3rem;
+  height:80px;
+  width:60px;
+  border:1px solid #dee2e6;
+  border-radius:5px;
+  outline:none;
+}
+.form input::-webkit-outer-spin-button,
+.form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.notice{
+  width:75%;
+  font-size:0.8rem;
+  text-align:center;
+  background-color:#eee;
+  color:#666;
+  padding:10px 20px;
+  border-radius:5px;
+}
+.form input:focus{
+  outline:2px solid #91a7ff;
+}
+.form input:valid{
+  border-color:#339af0;
+  box-shadow:0 5px 7px -3px rgb(0 0 0/30%);
+}
+</style>
+ <div class="container">
+      <h1 class="heading">Verify Your Account</h1>
+      <p class="msg">
+        We emailed you the six digit code to cool_guy@email.com<br>Enter the code below to confirm your email address.
+      </p>
+      <form action="#" class="form">
+        <input
+  type="text"
+  autocomplete="off"
+  name=""
+  id=""
+  value="1"
+  maxlength="1"
+  placeholder="0"
+  required
+/>
+<input
+  type="text"
+  autocomplete="off"
+  name=""
+  id=""
+  maxlength="1"
+  placeholder="0"
+  required
+/>
+<input
+  type="text"
+  autocomplete="off"
+  name=""
+  id=""
+  maxlength="1"
+  placeholder="0"
+  required
+/>
+<input
+  type="text"
+  autocomplete="off"
+  name=""
+  id=""
+  maxlength="1"
+  placeholder="0"
+  required
+/>
+<input
+  type="text"
+  autocomplete="off"
+  name=""
+  id=""
+  maxlength="1"
+  placeholder="0"
+  required
+/>
+<input
+  type="text"
+  autocomplete="off"
+  name=""
+  id=""
+  maxlength="1"
+  placeholder="0"
+  required
+/>
+
+
+      </form>
+      <p class="notice">This is design only. We didn't actually send you an email as we don't have your email, right?</p>
+    </div>
+
+
+
+</body>
+</html>
